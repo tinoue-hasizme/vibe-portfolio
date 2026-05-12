@@ -2,16 +2,57 @@
 
 ---
 
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>ポートフォリオ</title>
+		<style>
+			body {
+				font-family: sans-serif;
+				max-width: 720px;
+				margin: 2rem auto;
+				padding: 0 1rem;
+				color: #222;
+				line-height: 1.7;
+			}
+			h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+			h2 { font-size: 1.25rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+			ul { padding-left: 1.25rem; }
+			a { color: #0070f3; }
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<header>
+			<h1>ハンドルネーム</h1>
+			<p>学習中のエンジニア見習いです。</p>
+		</header>
+
+		<section>
+			<h2>学習テーマ</h2>
+			<ul>
+				<li>CLI・シェル・Git の基礎</li>
+				<li>シェルスクリプト・Go による自動化</li>
+				<li>HTML・CSS・JavaScript によるWeb基礎</li>
+				<li>AIエージェントを使った開発</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>作ったもの</h2>
+			<ul>
+				<li>シェルスクリプトによる小さな自動化ツール</li>
+				<li>Go で作ったCLIツール</li>
+				<li>HTML・CSS・JavaScriptで作ったローカルページ</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>学習ログ</h2>
+			<p><a href="https://github.com/USERNAME/REPO/blob/main/docs/learning-log.md">学習ログを読む（GitHub）</a></p>
+		</section>
 	</body>
 </html>
